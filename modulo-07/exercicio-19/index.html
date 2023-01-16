@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+ <title>QUIZ </title>
+</head>
+<body>
+  <div class="container py-5">
+    <!-- For Demo Purpose -->
+    <header class="text-center text-white">
+      <h1 class="display-4">Quiz</h1>
+      <p class="lead mb-0">Um desafio do curso JavaScript.</p>
+      <p class="font-italic">feito por <a href="https://bootstrapious.com" class="text-white">
+          <u>MichaelWell</u></a>
+      </p>
+    </header>
+
+    <div class="result py-4 d-none bg-light text-center">
+      <container>
+        <lead>
+          <p>Você acertou 
+            <span class="text-primary display-4 p-3">0</span> do quiz
+          </p>
+        </lead>
+      </container>
+    </div>
+  
+    <div class="py-5">
+      <div class="row">
+        <div class="col-lg-9 mx-auto">
+
+          <form class="quiz-form ">
+
+            <div class="card shadow mb-4">
+              <div class="card-body shadow-sm p-5">
+                <div aria-label="breadcrumb">
+                  <div class="breadcrumb">
+                    <h5 class="text-muted">1. Quantos planetas Terra cabem dentro do Sol?</h5>
+                  </div>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion1" value="A">
+                    Um milhão 
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion1" value="B">
+                    Quinhentos mil
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion1" value="C">
+                   Dois milhões
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion1" value="D">
+                    Trezentos mil
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="card shadow mb-4">
+              <div class="card-body shadow-sm p-5">
+                <div aria-label="breadcrumb">
+                  <div class="breadcrumb">
+                    <h5 class="text-muted">2. Quantos dias, aproximadamente, a Lua demora para dar uma volta à Terra? </h5>
+                  </div>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion2" value="A">
+                    21 dias
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion2" value="B">
+                    28 dias
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion2" value="C">
+                    30 dias
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion2" value="D">
+                    29 dias
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="card shadow mb-4">
+              <div class="card-body shadow-sm p-5">
+                <div aria-label="breadcrumb">
+                  <div class="breadcrumb">
+                    <h5 class="text-muted">3. Qual a unidade que mede a intensidade do som?</h5>
+                  </div>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion3" value="A">
+                    Compasso
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion3" value="B">
+                    Candela
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion3" value="C">
+                    Hertz
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion3" value="D">
+                    Decibel
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="card shadow mb-4">
+              <div class="card-body shadow-sm p-5">
+                <div aria-label="breadcrumb">
+                  <div class="breadcrumb">
+                    <h5 class="text-muted">4. Qual a ciência que estuda a atmosfera da Terra e a climatologia? </h5>
+                  </div>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion4" value="A">
+                   Metrologia
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion4" value="B">
+                     Dispersão atmosférica
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion4" value="C">
+                    Meteorologia
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion4" value="D">
+                    Anemologia
+                  </label>
+                </div>
+              </div>
+            </div>
+            
+
+            <div class="card shadow mb-4">
+              <div class="card-body shadow-sm p-5">
+                <div aria-label="breadcrumb">
+                  <div class="breadcrumb">
+                    <h5 class="text-muted">5. Indique qual alternativa representa as respectivas invenções dos inventores Alexander Graham Bell e Galileu Galilei. </h5>
+                  </div>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion5" value="A">
+                    Termômetro e relógio
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion5" value="B">
+                    Termômetro e telefone
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion5" value="C">
+                    Telefone e giroscópio
+                  </label>
+                </div>
+                <div class="form-check my-2 text-50">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion5" value="D">
+                    Relógio e giroscópio
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <button class="btn bg-primary text-light">Enviar</button>
+            </div>
+          </form> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./app.js"></script>    
+</body>
+</html>
+
